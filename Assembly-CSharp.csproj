@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_12;UNITY_2018_2;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_12;UNITY_2018_2;UNITY_2018;UNITY_ADS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;NATIVE_PLUGINS_LITE_VERSION;USES_ADDRESS_BOOK;USES_NETWORK_CONNECTIVITY;USES_SHARING;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -61,23 +61,130 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Balloon.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\HandleMovement.cs" />
-    <Compile Include="Assets\Scripts\LevelsManager.cs" />
-    <Compile Include="Assets\Scripts\MoveY.cs" />
-    <Compile Include="Assets\Scripts\Rotation.cs" />
-    <Compile Include="Assets\Scripts\Wall.cs" />
-    <Compile Include="Assets\Scripts\Walls.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdChoices.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdHandler.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdManager.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdPanel.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdQuad.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdSettings.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdUtility.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\AdView.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\InterstitialAd.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\NativeAd.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\RewardedVideoAd.cs" />
+    <Compile Include="Assets\AudienceNetwork\Library\SdkVersion.cs" />
+    <Compile Include="Assets\AudienceNetwork\Samples\Banner\AdViewTest.cs" />
+    <Compile Include="Assets\AudienceNetwork\Samples\InGameAd\AdCamera.cs" />
+    <Compile Include="Assets\AudienceNetwork\Samples\InGameAd\SimpleTouchPad.cs" />
+    <Compile Include="Assets\AudienceNetwork\Samples\Interstitial\InterstitialAdTest.cs" />
+    <Compile Include="Assets\AudienceNetwork\Samples\NativeAd\NativeAdTest.cs" />
+    <Compile Include="Assets\AudienceNetwork\Samples\RewardedVideo\RewardedVideoAdTest.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\MobileAds.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IMobileAdsClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\MobileAdsEventExecutor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\MobileAdsClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MobileAdsClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+    <Compile Include="Assets\Riseup\Animation\EventTriggerExample.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Balloon.cs" />
+    <Compile Include="Assets\Riseup\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Change\Appli.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Change\Applili.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Change\Changeballplayer.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Change\Tilele.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Change\Title.cs" />
+    <Compile Include="Assets\Riseup\Scripts\GameControler.cs" />
+    <Compile Include="Assets\Riseup\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Riseup\Scripts\HandleMovement.cs" />
+    <Compile Include="Assets\Riseup\Scripts\LevelsManager.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Movepoints\MoveBetweenTwoPoints.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Movepoints\MovingObject.cs" />
+    <Compile Include="Assets\Riseup\Scripts\MoveY.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Rotation.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\DataService.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\MuteToggleHandler.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\MuteToggleHandlerSound.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\PlayerPrefsHandler.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\PlayerPrefsManager.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\PlayerPrefsX.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Setting\VibrateToggle.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Share\VoxelBustersManager.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Wall.cs" />
+    <Compile Include="Assets\Riseup\Scripts\Walls.cs" />
+    <Compile Include="Assets\Riseup\Simple Vector Icons\Sample\IconPreview.cs" />
+    <Compile Include="Assets\Riseup\UnityPackages\ThaiFontAdjuster\ThaiFontAdjuster.cs" />
+    <Compile Include="Assets\SonatGame\Ads\FanAdsManager.cs" />
+    <Compile Include="Assets\SonatGame\Ads\GoogleAds.cs" />
+    <Compile Include="Assets\SonatGame\Ads\GoogleAdsManager.cs" />
+    <Compile Include="Assets\SonatGame\Ads\SG_AdManager.cs" />
+    <Compile Include="Assets\SonatGame\Bootrap.cs" />
+    <Compile Include="Assets\SonatGame\MoreApps\Scripts\AdsInfo.cs" />
+    <Compile Include="Assets\SonatGame\MoreApps\Scripts\AdsItem.cs" />
+    <Compile Include="Assets\SonatGame\MoreApps\Scripts\KeepCamvas.cs" />
+    <Compile Include="Assets\SonatGame\MoreApps\Scripts\MoreAppController.cs" />
+    <Compile Include="Assets\SonatGame\MoreApps\Scripts\Parse.cs" />
+    <Compile Include="Assets\SonatGame\MoreApps\Scripts\TestMoreApp.cs" />
+    <Compile Include="Assets\SonatGame\Notification\NotificationSystem.cs" />
+    <Compile Include="Assets\SonatGame\RemoteSettingsHandler.cs" />
+    <Compile Include="Assets\SonatGame\UnityAds\UnityAdsController.cs" />
+    <Compile Include="Assets\SonatGame\UnityAds\UnityAdsDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Base\NPDemoBase.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Base\NPDisabledFeatureDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\AddressBookDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\NetworkConnectivityDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\SharingDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\UIDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\UtilityDemo.cs" />
+    <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Utility\Utility.cs" />
+    <None Include="Assets\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\AudienceNetwork\Audience Network README.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>G:/Riseup/Rise-Up-2/Rise Up 2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>G:/Riseup/Rise-Up-2/Rise Up 2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>G:/Riseup/Rise-Up-2/Rise Up 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>G:/Riseup/Rise-Up-2/Rise Up 2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>G:/Riseup/Rise-Up-2/Rise Up 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -277,6 +384,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -310,6 +420,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FC5AF22D-B30C-AD72-E023-E1CBD463B409}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
